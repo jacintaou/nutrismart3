@@ -1,88 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Meal Plans</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="css/style.css">
+<title>Meal Plans</title>
+
+<link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
 
 <nav class="navbar">
 
-  <div class="logo">NutriSmart</div>
+<div class="logo">
+🥗 NutriSmart
+</div>
 
-  <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="analyser.html">Nutrition Analyser</a></li>
-    <li><a href="dashboard.html">Dashboard</a></li>
-    <li><a href="mealplans.html">Meal Plans</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="analyser.html">Analyser</a></li>
+<li><a href="dashboard.html">Dashboard</a></li>
+<li><a href="mealplans.html">Meal Plans</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+<button id="darkModeToggle">🌙</button>
 
 </nav>
 
-<section class="meal-page">
+<section class="page-banner">
 
-  <h1>Smart Meal Plans</h1>
+<img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=1200&auto=format&fit=crop">
 
-  <div class="meal-grid">
-
-    <div class="meal-card">
-      <img src="https://images.unsplash.com/photo-1547592180-85f173990554?q=80&w=1200&auto=format&fit=crop" alt="">
-
-      <h2>Weight Loss Plan</h2>
-
-      <p>
-        Balanced low-calorie meals designed to improve health and support fat loss.
-      </p>
-
-      <ul>
-        <li>Greek yoghurt bowl</li>
-        <li>Chicken salad wrap</li>
-        <li>Salmon and vegetables</li>
-      </ul>
-    </div>
-
-    <div class="meal-card">
-      <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1200&auto=format&fit=crop" alt="">
-
-      <h2>High Protein Plan</h2>
-
-      <p>
-        Protein-focused meals for muscle growth and recovery.
-      </p>
-
-      <ul>
-        <li>Egg omelette</li>
-        <li>Chicken rice bowl</li>
-        <li>Protein smoothie</li>
-      </ul>
-    </div>
-
-    <div class="meal-card">
-      <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=1200&auto=format&fit=crop" alt="">
-
-      <h2>Vegetarian Plan</h2>
-
-      <p>
-        Plant-based nutrient-rich meals promoting sustainability and wellness.
-      </p>
-
-      <ul>
-        <li>Tofu stir fry</li>
-        <li>Lentil curry</li>
-        <li>Avocado toast</li>
-      </ul>
-    </div>
-
-  </div>
+<div class="page-banner-overlay">
+Meal Plans & Recipes
+</div>
 
 </section>
+
+<section class="meal-page">
+
+<h1>
+Personalised Meal Planning
+</h1>
+
+<p>
+Select a dietary goal to explore smart meal plans,
+healthy recipes and nutrition-focused food ideas.
+</p>
+
+<div class="meal-filter">
+
+<select id="dietSelect" onchange="filterMeals()">
+
+<option value="all">All Diets</option>
+<option value="weightloss">Weight Loss</option>
+<option value="protein">High Protein</option>
+<option value="vegetarian">Vegetarian</option>
+
+</select>
+
+</div>
+
+<div class="meal-grid">
+
+<div class="meal-card weightloss">
+
+<img src="https://images.unsplash.com/photo-1547592180-85f173990554?q=80&w=1200&auto=format&fit=crop">
+
+<div class="meal-content">
+
+<h2>
+Weight Loss Plan
+</h2>
+
+<p>
+Balanced low-calorie meals designed to support
+fat loss and improve overall health.
+</p>
+
+<h3>Recipes</h3>
+
+<ul>
+
+<li>Greek yoghurt berry bowl</li>
+<li>Chicken salad wrap</li>
+<li>Grilled salmon vegetables</li>
+<li>Low calorie smoothie</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div class="meal-card protein">
+
+<img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1200&auto=format&fit=crop">
+
+<div class="meal-content">
+
+<h2>
+High Protein Plan
+</h2>
+
+<p>
+Protein-rich meals supporting muscle growth,
+recovery and athletic performance.
+</p>
+
+<h3>Recipes</h3>
+
+<ul>
+
+<li>Egg omelette bowl</li>
+<li>Chicken rice bowl</li>
+<li>Protein smoothie</li>
+<li>Steak sweet potato meal</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div class="meal-card vegetarian">
+
+<img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=1200&auto=format&fit=crop">
+
+<div class="meal-content">
+
+<h2>
+Vegetarian Plan
+</h2>
+
+<p>
+Plant-based recipes promoting sustainability,
+nutrition and long-term wellness.
+</p>
+
+<h3>Recipes</h3>
+
+<ul>
+
+<li>Tofu stir fry</li>
+<li>Lentil curry</li>
+<li>Avocado toast</li>
+<li>Vegetable pasta bowl</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer class="footer">
+
+<p>
+© 2026 NutriSmart | Enterprise Nutrition Intelligence Platform
+</p>
+
+</footer>
 
 <script src="js/script.js"></script>
 
