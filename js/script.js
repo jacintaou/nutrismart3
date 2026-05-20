@@ -7,7 +7,7 @@ protein:"12g",
 carbs:"36g",
 fat:"10g",
 health:55,
-swap:"Try a roasted vegetable flatbread on wholegrain crust for more fibre and nutrients while still keeping the flavours of traditional pizza.",
+swap:"Try a roasted vegetable flatbread on wholegrain crust for more fibre and nutrients while still keeping the flavour of pizza.",
 swapImage:"https://images.unsplash.com/photo-1511689660979-10d2b1aada49?q=80&w=1400&auto=format&fit=crop",
 image:"https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1400&auto=format&fit=crop"
 },
@@ -55,7 +55,7 @@ protein:"4g",
 carbs:"48g",
 fat:"17g",
 health:30,
-swap:"Baked sweet potato wedges contain more fibre and micronutrients than regular deep fried fries.",
+swap:"Baked sweet potato wedges contain more fibre and micronutrients than regular fries.",
 swapImage:"https://images.unsplash.com/photo-1606755962773-d324e0a13086?q=80&w=1400&auto=format&fit=crop",
 image:"https://images.unsplash.com/photo-1576107232684-1279f390859f?q=80&w=1400&auto=format&fit=crop"
 },
@@ -81,7 +81,7 @@ fat:"5g",
 health:90,
 swap:"A berry smoothie bowl with oats, chia seeds and yoghurt provides extra fibre and antioxidants.",
 swapImage:"https://images.unsplash.com/photo-1494597564530-871f2b93ac55?q=80&w=1400&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?q=80&w=1400&auto=format&fit=crop"
+image:"https://images.unsplash.com/photo-1553530666-ba11a90bb918?q=80&w=1400&auto=format&fit=crop"
 },
 
 iceCream:{
@@ -128,8 +128,10 @@ const selected =
 document.getElementById("foodSelect").value;
 
 if(selected === ""){
+
 alert("Please select a food.");
 return;
+
 }
 
 const food = foods[selected];
@@ -173,6 +175,10 @@ document.querySelector(".progress-ring").style.background =
 
 }
 
+let waterChart;
+let calorieChart;
+let sleepChart;
+
 function saveWater(){
 
 const water =
@@ -182,8 +188,10 @@ const target =
 parseInt(document.getElementById("waterTarget").value);
 
 if(!water || !target){
-alert("Please enter values.");
+
+alert("Please enter valid values.");
 return;
+
 }
 
 localStorage.setItem("water",water);
@@ -211,8 +219,10 @@ const target =
 parseInt(document.getElementById("calorieTarget").value);
 
 if(!calories || !target){
-alert("Please enter values.");
+
+alert("Please enter valid values.");
 return;
+
 }
 
 localStorage.setItem("calories",calories);
@@ -240,8 +250,10 @@ const target =
 parseInt(document.getElementById("sleepTarget").value);
 
 if(!sleep || !target){
-alert("Please enter values.");
+
+alert("Please enter valid values.");
 return;
+
 }
 
 localStorage.setItem("sleep",sleep);
@@ -260,10 +272,6 @@ updateCharts();
 
 }
 
-let waterChart;
-let calorieChart;
-let sleepChart;
-
 function createCharts(){
 
 const waterCanvas =
@@ -278,7 +286,9 @@ document.getElementById("sleepChart");
 if(waterCanvas){
 
 waterChart = new Chart(waterCanvas,{
+
 type:'doughnut',
+
 data:{
 labels:['Consumed','Remaining'],
 datasets:[{
@@ -287,7 +297,17 @@ localStorage.getItem("water") || 0,
 (localStorage.getItem("waterTarget") || 10) - (localStorage.getItem("water") || 0)
 ]
 }]
+},
+
+options:{
+responsive:true,
+plugins:{
+legend:{
+display:true
 }
+}
+}
+
 });
 
 }
@@ -295,7 +315,9 @@ localStorage.getItem("water") || 0,
 if(calorieCanvas){
 
 calorieChart = new Chart(calorieCanvas,{
+
 type:'bar',
+
 data:{
 labels:['Calories'],
 datasets:[{
@@ -304,7 +326,12 @@ data:[
 localStorage.getItem("calories") || 0
 ]
 }]
+},
+
+options:{
+responsive:true
 }
+
 });
 
 }
@@ -312,7 +339,9 @@ localStorage.getItem("calories") || 0
 if(sleepCanvas){
 
 sleepChart = new Chart(sleepCanvas,{
+
 type:'line',
+
 data:{
 labels:['Sleep'],
 datasets:[{
@@ -321,7 +350,12 @@ data:[
 localStorage.getItem("sleep") || 0
 ]
 }]
+},
+
+options:{
+responsive:true
 }
+
 });
 
 }
@@ -474,7 +508,9 @@ if(localStorage.getItem("theme") === "dark"){
 document.body.classList.add("dark-mode");
 
 if(darkToggle){
+
 darkToggle.innerHTML = "☀️";
+
 }
 
 }
