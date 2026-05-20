@@ -7,9 +7,9 @@ protein:"12g",
 carbs:"36g",
 fat:"10g",
 health:55,
-swap:"Wholegrain vegetable pizza",
-swapImage:"https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1200&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1200&auto=format&fit=crop"
+swap:"Try a roasted vegetable flatbread on wholegrain crust for more fibre and nutrients.",
+swapImage:"https://images.unsplash.com/photo-1519864600265-abb23847ef2c?q=80&w=1400&auto=format&fit=crop",
+image:"https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1400&auto=format&fit=crop"
 },
 
 burger:{
@@ -19,9 +19,9 @@ protein:"17g",
 carbs:"29g",
 fat:"18g",
 health:40,
-swap:"Lean turkey burger",
-swapImage:"https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=1200&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1200&auto=format&fit=crop"
+swap:"A grilled turkey burger with lettuce and avocado provides leaner protein and healthier fats.",
+swapImage:"https://images.unsplash.com/photo-1520072959219-c595dc870360?q=80&w=1400&auto=format&fit=crop",
+image:"https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1400&auto=format&fit=crop"
 },
 
 salad:{
@@ -31,9 +31,9 @@ protein:"5g",
 carbs:"10g",
 fat:"4g",
 health:95,
-swap:"Already healthy!",
-swapImage:"https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1200&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1200&auto=format&fit=crop"
+swap:"Try a quinoa nourish bowl with chickpeas and roasted vegetables for extra protein and fibre.",
+swapImage:"https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1400&auto=format&fit=crop",
+image:"https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1400&auto=format&fit=crop"
 },
 
 apple:{
@@ -43,9 +43,9 @@ protein:"0.5g",
 carbs:"25g",
 fat:"0.3g",
 health:98,
-swap:"Already healthy! Try another fruit like a banana or pear!",
-swapImage:"https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?q=80&w=1200&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?q=80&w=1200&auto=format&fit=crop"
+swap:"Pair apples with almond butter and nuts for a more balanced healthy snack.",
+swapImage:"https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?q=80&w=1400&auto=format&fit=crop",
+image:"https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?q=80&w=1400&auto=format&fit=crop"
 },
 
 fries:{
@@ -55,9 +55,9 @@ protein:"4g",
 carbs:"48g",
 fat:"17g",
 health:30,
-swap:"Sweet potato fries",
-swapImage:"https://images.unsplash.com/photo-1606755962773-d324e0a13086?q=80&w=1200&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1576107232684-1279f390859f?q=80&w=1200&auto=format&fit=crop"
+swap:"Sweet potato wedges baked in olive oil contain more fibre and nutrients.",
+swapImage:"https://images.unsplash.com/photo-1573080496219-bb080dd4f877?q=80&w=1400&auto=format&fit=crop",
+image:"https://images.unsplash.com/photo-1576107232684-1279f390859f?q=80&w=1400&auto=format&fit=crop"
 },
 
 friedChicken:{
@@ -67,9 +67,9 @@ protein:"28g",
 carbs:"15g",
 fat:"27g",
 health:35,
-swap:"Grilled chicken breast",
-swapImage:"https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?q=80&w=1200&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1562967916-eb82221dfb92?q=80&w=1200&auto=format&fit=crop"
+swap:"Grilled herb chicken with vegetables provides high protein with less saturated fat.",
+swapImage:"https://images.unsplash.com/photo-1600891964092-4316c288032e?q=80&w=1400&auto=format&fit=crop",
+image:"https://images.unsplash.com/photo-1562967916-eb82221dfb92?q=80&w=1400&auto=format&fit=crop"
 },
 
 proteinShake:{
@@ -79,9 +79,9 @@ protein:"30g",
 carbs:"12g",
 fat:"5g",
 health:90,
-swap:"Already healthy!",
-swapImage:"https://images.unsplash.com/photo-1514996937319-344454492b37?q=80&w=1200&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1514996937319-344454492b37?q=80&w=1200&auto=format&fit=crop"
+swap:"Try a berry yoghurt smoothie with oats and chia seeds for additional fibre.",
+swapImage:"https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?q=80&w=1400&auto=format&fit=crop",
+image:"https://images.unsplash.com/photo-1514996937319-344454492b37?q=80&w=1400&auto=format&fit=crop"
 },
 
 iceCream:{
@@ -91,9 +91,9 @@ protein:"5g",
 carbs:"31g",
 fat:"14g",
 health:45,
-swap:"Frozen yoghurt",
-swapImage:"https://images.unsplash.com/photo-1488900128323-21503983a07e?q=80&w=1200&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1563805042-7684c019e1cb?q=80&w=1200&auto=format&fit=crop"
+swap:"Frozen Greek yoghurt with fruit offers more protein and less added sugar.",
+swapImage:"https://images.unsplash.com/photo-1570197788417-0e82375c9371?q=80&w=1400&auto=format&fit=crop",
+image:"https://images.unsplash.com/photo-1563805042-7684c019e1cb?q=80&w=1400&auto=format&fit=crop"
 },
 
 sushi:{
@@ -103,9 +103,9 @@ protein:"15g",
 carbs:"28g",
 fat:"5g",
 health:88,
-swap:"Brown rice sushi",
-swapImage:"https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=1200&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=1200&auto=format&fit=crop"
+swap:"Try salmon poke bowls with brown rice and edamame for extra fibre and omega-3 fats.",
+swapImage:"https://images.unsplash.com/photo-1547592180-85f173990554?q=80&w=1400&auto=format&fit=crop",
+image:"https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=1400&auto=format&fit=crop"
 },
 
 steak:{
@@ -115,9 +115,9 @@ protein:"35g",
 carbs:"0g",
 fat:"20g",
 health:75,
-swap:"Lean beef steak",
-swapImage:"https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop"
+swap:"Lean beef strips with quinoa and greens provide a balanced high-protein option.",
+swapImage:"https://images.unsplash.com/photo-1600891963935-c1b4b11d3f3b?q=80&w=1400&auto=format&fit=crop",
+image:"https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1400&auto=format&fit=crop"
 }
 
 };
@@ -142,7 +142,6 @@ document.getElementById("healthScore").innerText = food.health + "%";
 document.getElementById("healthySwap").innerText = food.swap;
 
 document.getElementById("foodImage").src = food.image;
-
 document.getElementById("swapImage").src = food.swapImage;
 
 const degrees = (food.health / 100) * 360;
@@ -174,7 +173,7 @@ const percentage = (water / target) * 100;
 document.getElementById("waterProgress").style.width =
 percentage + "%";
 
-updateChart();
+location.reload();
 
 }
 
@@ -196,7 +195,7 @@ const percentage = (calories / target) * 100;
 document.getElementById("calorieProgress").style.width =
 percentage + "%";
 
-updateChart();
+location.reload();
 
 }
 
@@ -218,56 +217,79 @@ const percentage = (sleep / target) * 100;
 document.getElementById("sleepProgress").style.width =
 percentage + "%";
 
-updateChart();
+location.reload();
 
 }
 
-let healthChart;
+let waterChart;
+let calorieChart;
+let sleepChart;
 
-function updateChart(){
+function createCharts(){
 
-const chartCanvas =
-document.getElementById("healthChart");
+const waterCanvas =
+document.getElementById("waterChart");
 
-if(!chartCanvas){
-return;
-}
+const calorieCanvas =
+document.getElementById("calorieChart");
 
-if(healthChart){
-healthChart.destroy();
-}
+const sleepCanvas =
+document.getElementById("sleepChart");
 
-healthChart = new Chart(chartCanvas,{
+if(waterCanvas){
 
-type:'bar',
-
+waterChart = new Chart(waterCanvas,{
+type:'doughnut',
 data:{
-
-labels:['Water','Calories','Sleep'],
-
+labels:['Consumed','Remaining'],
 datasets:[{
-
-label:'Health Metrics',
-
 data:[
 localStorage.getItem("water") || 0,
-localStorage.getItem("calories") || 0,
-localStorage.getItem("sleep") || 0
+10 - (localStorage.getItem("water") || 0)
 ]
-
 }]
-
-},
-
-options:{
-responsive:true
 }
-
 });
 
 }
 
-updateChart();
+if(calorieCanvas){
+
+calorieChart = new Chart(calorieCanvas,{
+type:'bar',
+data:{
+labels:['Calories'],
+datasets:[{
+label:'Calories',
+data:[
+localStorage.getItem("calories") || 0
+]
+}]
+}
+});
+
+}
+
+if(sleepCanvas){
+
+sleepChart = new Chart(sleepCanvas,{
+type:'line',
+data:{
+labels:['Sleep'],
+datasets:[{
+label:'Hours',
+data:[
+localStorage.getItem("sleep") || 0
+]
+}]
+}
+});
+
+}
+
+}
+
+createCharts();
 
 function filterMeals(){
 
@@ -298,6 +320,25 @@ meal.style.display = "none";
 }
 
 });
+
+}
+
+function toggleRecipe(recipeId){
+
+const recipe =
+document.getElementById(recipeId);
+
+if(recipe.style.display === "block"){
+
+recipe.style.display = "none";
+
+}
+
+else{
+
+recipe.style.display = "block";
+
+}
 
 }
 
