@@ -7,8 +7,8 @@ protein:"12g",
 carbs:"36g",
 fat:"10g",
 health:55,
-swap:"Try a roasted vegetable flatbread on wholegrain crust for more fibre and nutrients.",
-swapImage:"https://images.unsplash.com/photo-1519864600265-abb23847ef2c?q=80&w=1400&auto=format&fit=crop",
+swap:"Try a roasted vegetable flatbread on wholegrain crust for more fibre and nutrients while still keeping the flavours of traditional pizza.",
+swapImage:"https://images.unsplash.com/photo-1511689660979-10d2b1aada49?q=80&w=1400&auto=format&fit=crop",
 image:"https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1400&auto=format&fit=crop"
 },
 
@@ -19,8 +19,8 @@ protein:"17g",
 carbs:"29g",
 fat:"18g",
 health:40,
-swap:"A grilled turkey burger with lettuce and avocado provides leaner protein and healthier fats.",
-swapImage:"https://images.unsplash.com/photo-1520072959219-c595dc870360?q=80&w=1400&auto=format&fit=crop",
+swap:"A grilled turkey burger with avocado and lettuce provides leaner protein and healthier fats.",
+swapImage:"https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=1400&auto=format&fit=crop",
 image:"https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1400&auto=format&fit=crop"
 },
 
@@ -31,8 +31,8 @@ protein:"5g",
 carbs:"10g",
 fat:"4g",
 health:95,
-swap:"Try a quinoa nourish bowl with chickpeas and roasted vegetables for extra protein and fibre.",
-swapImage:"https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1400&auto=format&fit=crop",
+swap:"Try a quinoa nourish bowl with roasted vegetables and chickpeas for additional protein and fibre.",
+swapImage:"https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=80&w=1400&auto=format&fit=crop",
 image:"https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1400&auto=format&fit=crop"
 },
 
@@ -43,8 +43,8 @@ protein:"0.5g",
 carbs:"25g",
 fat:"0.3g",
 health:98,
-swap:"Pair apples with almond butter and nuts for a more balanced healthy snack.",
-swapImage:"https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?q=80&w=1400&auto=format&fit=crop",
+swap:"Pair apples with almond butter and yoghurt for a more balanced nutritious snack.",
+swapImage:"https://images.unsplash.com/photo-1579613832125-5d34a13ffe2a?q=80&w=1400&auto=format&fit=crop",
 image:"https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?q=80&w=1400&auto=format&fit=crop"
 },
 
@@ -55,8 +55,8 @@ protein:"4g",
 carbs:"48g",
 fat:"17g",
 health:30,
-swap:"Sweet potato wedges baked in olive oil contain more fibre and nutrients.",
-swapImage:"https://images.unsplash.com/photo-1573080496219-bb080dd4f877?q=80&w=1400&auto=format&fit=crop",
+swap:"Baked sweet potato wedges contain more fibre and micronutrients than regular deep fried fries.",
+swapImage:"https://images.unsplash.com/photo-1606755962773-d324e0a13086?q=80&w=1400&auto=format&fit=crop",
 image:"https://images.unsplash.com/photo-1576107232684-1279f390859f?q=80&w=1400&auto=format&fit=crop"
 },
 
@@ -67,7 +67,7 @@ protein:"28g",
 carbs:"15g",
 fat:"27g",
 health:35,
-swap:"Grilled herb chicken with vegetables provides high protein with less saturated fat.",
+swap:"Herb grilled chicken with roasted vegetables offers high protein with far less saturated fat.",
 swapImage:"https://images.unsplash.com/photo-1600891964092-4316c288032e?q=80&w=1400&auto=format&fit=crop",
 image:"https://images.unsplash.com/photo-1562967916-eb82221dfb92?q=80&w=1400&auto=format&fit=crop"
 },
@@ -79,9 +79,9 @@ protein:"30g",
 carbs:"12g",
 fat:"5g",
 health:90,
-swap:"Try a berry yoghurt smoothie with oats and chia seeds for additional fibre.",
-swapImage:"https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?q=80&w=1400&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1514996937319-344454492b37?q=80&w=1400&auto=format&fit=crop"
+swap:"A berry smoothie bowl with oats, chia seeds and yoghurt provides extra fibre and antioxidants.",
+swapImage:"https://images.unsplash.com/photo-1494597564530-871f2b93ac55?q=80&w=1400&auto=format&fit=crop",
+image:"https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?q=80&w=1400&auto=format&fit=crop"
 },
 
 iceCream:{
@@ -91,8 +91,8 @@ protein:"5g",
 carbs:"31g",
 fat:"14g",
 health:45,
-swap:"Frozen Greek yoghurt with fruit offers more protein and less added sugar.",
-swapImage:"https://images.unsplash.com/photo-1570197788417-0e82375c9371?q=80&w=1400&auto=format&fit=crop",
+swap:"Frozen Greek yoghurt topped with berries provides more protein and less added sugar.",
+swapImage:"https://images.unsplash.com/photo-1488900128323-21503983a07e?q=80&w=1400&auto=format&fit=crop",
 image:"https://images.unsplash.com/photo-1563805042-7684c019e1cb?q=80&w=1400&auto=format&fit=crop"
 },
 
@@ -103,8 +103,8 @@ protein:"15g",
 carbs:"28g",
 fat:"5g",
 health:88,
-swap:"Try salmon poke bowls with brown rice and edamame for extra fibre and omega-3 fats.",
-swapImage:"https://images.unsplash.com/photo-1547592180-85f173990554?q=80&w=1400&auto=format&fit=crop",
+swap:"A salmon poke bowl with brown rice and edamame offers more fibre and omega-3 healthy fats.",
+swapImage:"https://images.unsplash.com/photo-1553621042-f6e147245754?q=80&w=1400&auto=format&fit=crop",
 image:"https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=1400&auto=format&fit=crop"
 },
 
@@ -115,16 +115,17 @@ protein:"35g",
 carbs:"0g",
 fat:"20g",
 health:75,
-swap:"Lean beef strips with quinoa and greens provide a balanced high-protein option.",
-swapImage:"https://images.unsplash.com/photo-1600891963935-c1b4b11d3f3b?q=80&w=1400&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1400&auto=format&fit=crop"
+swap:"Lean beef strips with quinoa and leafy greens create a more balanced protein-rich meal.",
+swapImage:"https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1400&auto=format&fit=crop",
+image:"https://images.unsplash.com/photo-1558030006-450675393462?q=80&w=1400&auto=format&fit=crop"
 }
 
 };
 
 function analyseFood(){
 
-const selected = document.getElementById("foodSelect").value;
+const selected =
+document.getElementById("foodSelect").value;
 
 if(selected === ""){
 alert("Please select a food.");
@@ -133,18 +134,35 @@ return;
 
 const food = foods[selected];
 
-document.getElementById("foodName").innerText = food.name;
-document.getElementById("calories").innerText = food.calories + " kcal";
-document.getElementById("protein").innerText = food.protein;
-document.getElementById("carbs").innerText = food.carbs;
-document.getElementById("fat").innerText = food.fat;
-document.getElementById("healthScore").innerText = food.health + "%";
-document.getElementById("healthySwap").innerText = food.swap;
+document.getElementById("foodName").innerText =
+food.name;
 
-document.getElementById("foodImage").src = food.image;
-document.getElementById("swapImage").src = food.swapImage;
+document.getElementById("calories").innerText =
+food.calories + " kcal";
 
-const degrees = (food.health / 100) * 360;
+document.getElementById("protein").innerText =
+food.protein;
+
+document.getElementById("carbs").innerText =
+food.carbs;
+
+document.getElementById("fat").innerText =
+food.fat;
+
+document.getElementById("healthScore").innerText =
+food.health + "%";
+
+document.getElementById("healthySwap").innerText =
+food.swap;
+
+document.getElementById("foodImage").src =
+food.image;
+
+document.getElementById("swapImage").src =
+food.swapImage;
+
+const degrees =
+(food.health / 100) * 360;
 
 document.querySelector(".progress-ring").style.background =
 `conic-gradient(
@@ -158,66 +176,87 @@ document.querySelector(".progress-ring").style.background =
 function saveWater(){
 
 const water =
-document.getElementById("waterInput").value;
+parseInt(document.getElementById("waterInput").value);
 
 const target =
-document.getElementById("waterTarget").value;
+parseInt(document.getElementById("waterTarget").value);
+
+if(!water || !target){
+alert("Please enter values.");
+return;
+}
 
 localStorage.setItem("water",water);
+localStorage.setItem("waterTarget",target);
 
 document.getElementById("waterResult").innerText =
 water + " Glasses";
 
-const percentage = (water / target) * 100;
+const percentage =
+(water / target) * 100;
 
 document.getElementById("waterProgress").style.width =
 percentage + "%";
 
-location.reload();
+updateCharts();
 
 }
 
 function saveCalories(){
 
 const calories =
-document.getElementById("calorieInput").value;
+parseInt(document.getElementById("calorieInput").value);
 
 const target =
-document.getElementById("calorieTarget").value;
+parseInt(document.getElementById("calorieTarget").value);
+
+if(!calories || !target){
+alert("Please enter values.");
+return;
+}
 
 localStorage.setItem("calories",calories);
+localStorage.setItem("calorieTarget",target);
 
 document.getElementById("calorieResult").innerText =
 calories + " kcal";
 
-const percentage = (calories / target) * 100;
+const percentage =
+(calories / target) * 100;
 
 document.getElementById("calorieProgress").style.width =
 percentage + "%";
 
-location.reload();
+updateCharts();
 
 }
 
 function saveSleep(){
 
 const sleep =
-document.getElementById("sleepInput").value;
+parseInt(document.getElementById("sleepInput").value);
 
 const target =
-document.getElementById("sleepTarget").value;
+parseInt(document.getElementById("sleepTarget").value);
+
+if(!sleep || !target){
+alert("Please enter values.");
+return;
+}
 
 localStorage.setItem("sleep",sleep);
+localStorage.setItem("sleepTarget",target);
 
 document.getElementById("sleepResult").innerText =
 sleep + " Hours";
 
-const percentage = (sleep / target) * 100;
+const percentage =
+(sleep / target) * 100;
 
 document.getElementById("sleepProgress").style.width =
 percentage + "%";
 
-location.reload();
+updateCharts();
 
 }
 
@@ -245,7 +284,7 @@ labels:['Consumed','Remaining'],
 datasets:[{
 data:[
 localStorage.getItem("water") || 0,
-10 - (localStorage.getItem("water") || 0)
+(localStorage.getItem("waterTarget") || 10) - (localStorage.getItem("water") || 0)
 ]
 }]
 }
@@ -289,7 +328,27 @@ localStorage.getItem("sleep") || 0
 
 }
 
+function updateCharts(){
+
+if(waterChart){
+waterChart.destroy();
+}
+
+if(calorieChart){
+calorieChart.destroy();
+}
+
+if(sleepChart){
+sleepChart.destroy();
+}
+
 createCharts();
+
+}
+
+if(document.getElementById("waterChart")){
+createCharts();
+}
 
 function filterMeals(){
 
