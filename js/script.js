@@ -105,7 +105,7 @@ fat:"5g",
 health:88,
 swap:"Brown rice sushi",
 swapImage:"https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=1200&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=1200&auto=format&fit=crop"
+image:"https://d1yfn1dfres2va.cloudfront.net/013/33/e0/33e09b48d616d310df87ab5f101f65fe_social01.jpgq=80&w=1200&auto=format&fit=crop"
 },
 
 steak:{
