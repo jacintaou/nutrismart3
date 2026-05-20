@@ -1,106 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Nutrition Analyser</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="css/style.css">
+<title>Nutrition Analyser</title>
+
+<link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
 
 <nav class="navbar">
-  <div class="logo">NutriSmart</div>
 
-  <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="analyser.html">Nutrition Analyser</a></li>
-    <li><a href="dashboard.html">Dashboard</a></li>
-    <li><a href="mealplans.html">Meal Plans</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
+<div class="logo">
+🥗 NutriSmart
+</div>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="analyser.html">Analyser</a></li>
+<li><a href="dashboard.html">Dashboard</a></li>
+<li><a href="mealplans.html">Meal Plans</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+<button id="darkModeToggle">🌙</button>
+
 </nav>
+
+<section class="page-banner">
+
+<img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=1200&auto=format&fit=crop">
+
+<div class="page-banner-overlay">
+Nutrition Analyser
+</div>
+
+</section>
 
 <section class="analyser-page">
 
-  <h1>Nutrition Analyser</h1>
+<h1>Analyse Your Food</h1>
 
-  <p>
-    Select a food item to receive nutritional insights,
-    health ratings and healthier alternatives.
-  </p>
+<p>
+Select foods to receive detailed nutritional insights,
+health ratings and healthier alternatives.
+</p>
 
-  <div class="analyser-box">
+<div class="analyser-box">
 
-    <select id="foodSelect">
+<select id="foodSelect">
 
-      <option value="">Select Food</option>
+<option value="">Select Food</option>
 
-      <option value="pizza">Pizza</option>
-      <option value="burger">Burger</option>
-      <option value="salad">Salad</option>
-      <option value="apple">Apple</option>
-      <option value="fries">Fries</option>
-      <option value="friedChicken">Fried Chicken</option>
-      <option value="proteinShake">Protein Shake</option>
-      <option value="iceCream">Ice Cream</option>
-      <option value="sushi">Sushi</option>
-      <option value="steak">Steak</option>
+<option value="pizza">Pizza</option>
+<option value="burger">Burger</option>
+<option value="salad">Salad</option>
+<option value="apple">Apple</option>
+<option value="fries">Fries</option>
+<option value="friedChicken">Fried Chicken</option>
+<option value="proteinShake">Protein Shake</option>
+<option value="iceCream">Ice Cream</option>
+<option value="sushi">Sushi</option>
+<option value="steak">Steak</option>
 
-    </select>
+</select>
 
-    <button onclick="analyseFood()">Analyse Food</button>
+<button onclick="analyseFood()">
+Analyse Food
+</button>
 
-  </div>
+</div>
 
-  <div class="results-card" id="resultsCard">
+<div class="results-card">
 
-    <img id="foodImage" src="" alt="">
+<img id="foodImage">
 
-    <h2 id="foodName"></h2>
+<h2 id="foodName"></h2>
 
-    <div class="macro-grid">
+<div class="macro-grid">
 
-      <div class="macro-card">
-        <h3>Calories</h3>
-        <p id="calories"></p>
-      </div>
+<div class="macro-card">
+<h3>Calories</h3>
+<p id="calories"></p>
+</div>
 
-      <div class="macro-card">
-        <h3>Protein</h3>
-        <p id="protein"></p>
-      </div>
+<div class="macro-card">
+<h3>Protein</h3>
+<p id="protein"></p>
+</div>
 
-      <div class="macro-card">
-        <h3>Carbs</h3>
-        <p id="carbs"></p>
-      </div>
+<div class="macro-card">
+<h3>Carbs</h3>
+<p id="carbs"></p>
+</div>
 
-      <div class="macro-card">
-        <h3>Fat</h3>
-        <p id="fat"></p>
-      </div>
+<div class="macro-card">
+<h3>Fat</h3>
+<p id="fat"></p>
+</div>
 
-    </div>
+</div>
 
-    <div class="health-rating">
-      <h3>Health Rating</h3>
-      <div class="rating-bar">
-        <div id="ratingFill"></div>
-      </div>
+<h3 class="rating-title">
+Health Rating
+</h3>
 
-      <p id="healthScore"></p>
-    </div>
+<div class="progress-ring">
 
-    <div class="swap-box">
-      <h3>Healthy Swap</h3>
-      <p id="healthySwap"></p>
-    </div>
+<div class="progress-inner">
 
-  </div>
+<span id="healthScore"></span>
+
+</div>
+
+</div>
+
+<div class="swap-section">
+
+<h3>
+Healthy Alternative
+</h3>
+
+<p id="healthySwap"></p>
+
+<img id="swapImage" class="swap-image">
+
+</div>
+
+</div>
 
 </section>
 
