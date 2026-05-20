@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -54,8 +54,8 @@ Track Your Daily Health
 </h1>
 
 <p class="dashboard-subtext">
-Monitor hydration, calories and sleep using enterprise-style
-data visualisations and interactive analytics.
+Monitor hydration, calories and sleep using interactive
+enterprise-style health analytics.
 </p>
 
 <div class="dashboard-grid">
@@ -66,7 +66,7 @@ data visualisations and interactive analytics.
 
 <input type="number" id="waterInput" placeholder="Water consumed">
 
-<input type="number" id="waterTarget" placeholder="Water target">
+<input type="number" id="waterTarget" placeholder="Daily target">
 
 <button onclick="saveWater()">
 Save Progress
@@ -80,8 +80,6 @@ Save Progress
 0 Glasses
 </h3>
 
-<canvas id="waterChart"></canvas>
-
 </div>
 
 <div class="dashboard-card">
@@ -90,7 +88,7 @@ Save Progress
 
 <input type="number" id="calorieInput" placeholder="Calories eaten">
 
-<input type="number" id="calorieTarget" placeholder="Calorie target">
+<input type="number" id="calorieTarget" placeholder="Daily calorie target">
 
 <button onclick="saveCalories()">
 Save Progress
@@ -103,8 +101,6 @@ Save Progress
 <h3 id="calorieResult">
 0 kcal
 </h3>
-
-<canvas id="calorieChart"></canvas>
 
 </div>
 
@@ -128,9 +124,17 @@ Save Progress
 0 Hours
 </h3>
 
-<canvas id="sleepChart"></canvas>
+</div>
 
 </div>
+
+<div class="chart-container">
+
+<h2 class="chart-title">
+Daily Health Analytics
+</h2>
+
+<canvas id="healthChart"></canvas>
 
 </div>
 
@@ -143,15 +147,15 @@ Daily Motivation
 <div class="motivation-grid">
 
 <div class="motivation-card">
-🥗 Healthy eating fuels both physical and mental performance.
+🥗 Healthy eating fuels your body and mind.
 </div>
 
 <div class="motivation-card">
-💧 Hydration improves focus, energy and productivity.
+💧 Hydration improves focus and energy levels.
 </div>
 
 <div class="motivation-card">
-😴 Quality sleep supports recovery and overall wellbeing.
+😴 Quality sleep supports recovery and wellbeing.
 </div>
 
 </div>
