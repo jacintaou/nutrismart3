@@ -43,7 +43,7 @@ protein:"0.5g",
 carbs:"25g",
 fat:"0.3g",
 health:98,
-swap:"Already healthy!",
+swap:"Already healthy! Try another fruit like a banana or pear!",
 swapImage:"https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?q=80&w=1200&auto=format&fit=crop",
 image:"https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?q=80&w=1200&auto=format&fit=crop"
 },
