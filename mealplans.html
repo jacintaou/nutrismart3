@@ -1,77 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Meal Plans</title>
+
 <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
 
 <nav class="navbar">
-<div class="logo">🥗 NutriSmart</div>
+
+<div class="logo">
+🥗 NutriSmart
+</div>
 
 <ul class="nav-links">
+
 <li><a href="index.html">Home</a></li>
 <li><a href="analyser.html">Analyser</a></li>
 <li><a href="dashboard.html">Dashboard</a></li>
 <li><a href="mealplans.html">Meal Plans</a></li>
 <li><a href="about.html">About</a></li>
 <li><a href="contact.html">Contact</a></li>
+
 </ul>
 
 <button id="darkModeToggle">🌙</button>
+
 </nav>
 
 <section class="page-banner">
-<img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?q=80&w=1400&auto=format&fit=crop">
-<div class="page-banner-overlay">Meal Plans & Recipes</div>
+
+<img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=1400&auto=format&fit=crop">
+
+<div class="page-banner-overlay">
+Meal Plans & Recipes
+</div>
+
 </section>
 
 <section class="meal-page">
 
-<h1>Interactive Meal Planning</h1>
+<h1>
+Interactive Healthy Recipes
+</h1>
+
+<p class="about-intro">
+Select a dietary goal and explore full healthy recipes with ingredients and cooking instructions.
+</p>
 
 <div class="meal-filter">
+
 <select id="dietSelect" onchange="filterMeals()">
+
 <option value="all">All Diets</option>
 <option value="weightloss">Weight Loss</option>
 <option value="protein">High Protein</option>
 <option value="vegetarian">Vegetarian</option>
+
 </select>
+
 </div>
 
 <div class="meal-grid">
 
 <div class="meal-card weightloss">
-<img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?q=80&w=1400&auto=format&fit=crop">
+
+<img src="https://images.unsplash.com/photo-1543353071-873f17a7a088?q=80&w=1400&auto=format&fit=crop">
+
 <div class="meal-content">
-<h2>🥗 Chicken Power Bowl</h2>
-<p>High fibre and protein-rich meal supporting healthy fat loss.</p>
-<button onclick="toggleRecipe('recipe1')">View Recipe</button>
+
+<h2>
+🥗 Chicken Power Bowl
+</h2>
+
+<p>
+A high fibre meal supporting healthy weight management.
+</p>
+
+<button onclick="toggleRecipe('recipe1')">
+View Full Recipe
+</button>
+
 <div class="recipe-box" id="recipe1">
+
 <h3>Ingredients</h3>
+
 <ul>
-<li>Grilled chicken breast</li>
-<li>Brown rice</li>
-<li>Spinach</li>
+
+<li>1 grilled chicken breast</li>
+<li>1 cup brown rice</li>
+<li>1 avocado</li>
+<li>1 cup spinach</li>
 <li>Cherry tomatoes</li>
-<li>Avocado</li>
+<li>Olive oil dressing</li>
+
 </ul>
+
 <h3>Instructions</h3>
-<p>Cook the chicken until golden brown and serve with rice and vegetables.</p>
+
+<p>
+1. Grill chicken breast until fully cooked.<br><br>
+
+2. Cook brown rice according to packet instructions.<br><br>
+
+3. Slice avocado and tomatoes.<br><br>
+
+4. Add spinach into bowl and top with rice and chicken.<br><br>
+
+5. Drizzle olive oil dressing over the meal before serving.
+</p>
+
 </div>
+
 </div>
+
 </div>
 
 <div class="meal-card protein">
-<img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1400&auto=format&fit=crop">
+
+<img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?q=80&w=1400&auto=format&fit=crop">
+
 <div class="meal-content">
-<h2>🥩 Steak Recovery Plate</h2>
-<p>Protein-focused meal supporting muscle recovery and energy.</p>
-<button onclick="toggleRecipe('recipe2')">View Recipe</button>
+
+<h2>
+🥩 Steak Recovery Plate
+</h2>
+
+<p>
+High protein recovery meal ideal for fitness and muscle support.
+</p>
+
+<button onclick="toggleRecipe('recipe2')">
+View Full Recipe
+</button>
+
 <div class="recipe-box" id="recipe2">
+
 <h3>Ingredients</h3>
+
 <ul>
+
+<li>200g lean steak</li>
+<li>1 sweet potato</li>
+<li>1 cup broccoli</li>
+<li>Olive oil</li>
+<li>Garlic seasoning</li>
+
+</ul>
+
+<h3>Instructions</h3>
+
+<p>
+1. Season steak with garlic and herbs.<br><br>
+
+2. Roast sweet potato for 35 minutes.<br><br>
+
+3. Grill steak until desired doneness.<br><br>
+
+4. Steam broccoli until soft.<br><br>
+
+5. Serve together with olive oil drizzle.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="meal-card vegetarian">
+
+<img src="https://images.unsplash.com/photo-1516100882582-96c3a05fe590?q=80&w=1400&auto=format&fit=crop">
+
+<div class="meal-content">
+
+<h2>
+🍝 Mediterranean Pasta
+</h2>
+
+<p>
+Balanced vegetarian meal packed with fibre and nutrients.
+</p>
+
+<button onclick="toggleRecipe('recipe3')">
+View Full Recipe
+</button>
+
+<div class="recipe-box" id="recipe3">
+
+<h3>Ingredients</h3>
+
+<ul>
+
+<li>Wholegrain pasta</li>
+<li>Spinach</li>
+<li>Cherry tomatoes</li>
+<li>Feta cheese</li>
+<li>Olive oil</li>
+<li>Garlic cloves</li>
+
+</ul>
+
+<h3>Instructions</h3>
+
+<p>
+1. Cook wholegrain pasta until tender.<br><br>
+
+2. Sauté garlic and tomatoes in olive oil.<br><br>
+
+3. Add spinach and cook lightly.<br><br>
+
+4. Combine pasta with vegetables.<br><br>
+
+5. Sprinkle feta cheese over the top before serving.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer class="footer">
+
+<p>
+© 2026 NutriSmart | Enterprise Nutrition Intelligence Platform
+</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
 </html>
