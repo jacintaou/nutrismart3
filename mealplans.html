@@ -1,179 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Meal Plans</title>
-
 <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
 
 <nav class="navbar">
-
-<div class="logo">
-🥗 NutriSmart
-</div>
+<div class="logo">🥗 NutriSmart</div>
 
 <ul class="nav-links">
-
 <li><a href="index.html">Home</a></li>
 <li><a href="analyser.html">Analyser</a></li>
 <li><a href="dashboard.html">Dashboard</a></li>
 <li><a href="mealplans.html">Meal Plans</a></li>
 <li><a href="about.html">About</a></li>
 <li><a href="contact.html">Contact</a></li>
-
 </ul>
 
 <button id="darkModeToggle">🌙</button>
-
 </nav>
 
 <section class="page-banner">
-
-<img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=1200&auto=format&fit=crop">
-
-<div class="page-banner-overlay">
-Meal Plans & Recipes
-</div>
-
+<img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?q=80&w=1400&auto=format&fit=crop">
+<div class="page-banner-overlay">Meal Plans & Recipes</div>
 </section>
 
 <section class="meal-page">
 
-<h1>
-Personalised Meal Planning
-</h1>
-
-<p>
-Select a dietary goal to explore smart meal plans,
-healthy recipes and nutrition-focused food ideas.
-</p>
+<h1>Interactive Meal Planning</h1>
 
 <div class="meal-filter">
-
 <select id="dietSelect" onchange="filterMeals()">
-
 <option value="all">All Diets</option>
 <option value="weightloss">Weight Loss</option>
 <option value="protein">High Protein</option>
 <option value="vegetarian">Vegetarian</option>
-
 </select>
-
 </div>
 
 <div class="meal-grid">
 
 <div class="meal-card weightloss">
-
-<img src="https://images.unsplash.com/photo-1547592180-85f173990554?q=80&w=1200&auto=format&fit=crop">
-
+<img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?q=80&w=1400&auto=format&fit=crop">
 <div class="meal-content">
-
-<h2>
-Weight Loss Plan
-</h2>
-
-<p>
-Balanced low-calorie meals designed to support
-fat loss and improve overall health.
-</p>
-
-<h3>Recipes</h3>
-
+<h2>🥗 Chicken Power Bowl</h2>
+<p>High fibre and protein-rich meal supporting healthy fat loss.</p>
+<button onclick="toggleRecipe('recipe1')">View Recipe</button>
+<div class="recipe-box" id="recipe1">
+<h3>Ingredients</h3>
 <ul>
-
-<li>Greek yoghurt berry bowl</li>
-<li>Chicken salad wrap</li>
-<li>Grilled salmon vegetables</li>
-<li>Low calorie smoothie</li>
-
+<li>Grilled chicken breast</li>
+<li>Brown rice</li>
+<li>Spinach</li>
+<li>Cherry tomatoes</li>
+<li>Avocado</li>
 </ul>
-
+<h3>Instructions</h3>
+<p>Cook the chicken until golden brown and serve with rice and vegetables.</p>
 </div>
-
+</div>
 </div>
 
 <div class="meal-card protein">
-
-<img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1200&auto=format&fit=crop">
-
+<img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1400&auto=format&fit=crop">
 <div class="meal-content">
-
-<h2>
-High Protein Plan
-</h2>
-
-<p>
-Protein-rich meals supporting muscle growth,
-recovery and athletic performance.
-</p>
-
-<h3>Recipes</h3>
-
+<h2>🥩 Steak Recovery Plate</h2>
+<p>Protein-focused meal supporting muscle recovery and energy.</p>
+<button onclick="toggleRecipe('recipe2')">View Recipe</button>
+<div class="recipe-box" id="recipe2">
+<h3>Ingredients</h3>
 <ul>
-
-<li>Egg omelette bowl</li>
-<li>Chicken rice bowl</li>
-<li>Protein smoothie</li>
-<li>Steak sweet potato meal</li>
-
-</ul>
-
-</div>
-
-</div>
-
-<div class="meal-card vegetarian">
-
-<img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=1200&auto=format&fit=crop">
-
-<div class="meal-content">
-
-<h2>
-Vegetarian Plan
-</h2>
-
-<p>
-Plant-based recipes promoting sustainability,
-nutrition and long-term wellness.
-</p>
-
-<h3>Recipes</h3>
-
-<ul>
-
-<li>Tofu stir fry</li>
-<li>Lentil curry</li>
-<li>Avocado toast</li>
-<li>Vegetable pasta bowl</li>
-
-</ul>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<footer class="footer">
-
-<p>
-© 2026 NutriSmart | Enterprise Nutrition Intelligence Platform
-</p>
-
-</footer>
-
-<script src="js/script.js"></script>
-
-</body>
 </html>
