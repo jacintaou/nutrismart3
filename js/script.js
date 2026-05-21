@@ -8,8 +8,8 @@ carbs:"36g",
 fat:"10g",
 health:55,
 swap:"Try a roasted vegetable flatbread on wholegrain crust for more fibre and nutrients while still keeping the flavour of pizza.",
-swapImage:"https://images.unsplash.com/photo-1511689660979-10d2b1aada49?q=80&w=1400&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1400&auto=format&fit=crop"
+swapImage:"images/healthy-flatbread.jpg",
+image:"images/pizza.jpg"
 },
 
 burger:{
@@ -20,8 +20,8 @@ carbs:"29g",
 fat:"18g",
 health:40,
 swap:"Try swapping for a grilled turkey burger with avocado and lettuce, which provides leaner protein and healthier fats.",
-swapImage:"https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=1400&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1400&auto=format&fit=crop"
+swapImage:"images/turkey-burger.jpg",
+image:"images/burger.jpg"
 },
 
 salad:{
@@ -32,8 +32,8 @@ carbs:"10g",
 fat:"4g",
 health:95,
 swap:"Already healthy! Try a quinoa nourish bowl with roasted vegetables and chickpeas for additional protein and fibre.",
-swapImage:"https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=80&w=1400&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=1400&auto=format&fit=crop"
+swapImage:"images/quinoa-bowl.jpg",
+image:"images/salad.jpg"
 },
 
 apple:{
@@ -43,9 +43,9 @@ protein:"0.5g",
 carbs:"25g",
 fat:"0.3g",
 health:98,
-swap:"Already healthy! Try pairing apples with almond butter and yoghurt for a more balanced nutritious snack.",
-swapImage:"https://pin.it/7emLjlZq9q=80&w=1400&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?q=80&w=1400&auto=format&fit=crop"
+swap:"Already healthy! Try pairing apples with peanut butter and yoghurt for a more balanced nutritious snack.",
+swapImage:"images/apple-peanutbutter.jpg",
+image:"images/apple.jpg"
 },
 
 fries:{
@@ -56,8 +56,8 @@ carbs:"48g",
 fat:"17g",
 health:30,
 swap:"Try swapping to baked sweet potato wedges which contain more fibre and micronutrients than regular fries.",
-swapImage:"https://images.unsplash.com/photo-1606755962773-d324e0a13086?q=80&w=1400&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1576107232684-1279f390859f?q=80&w=1400&auto=format&fit=crop"
+swapImage:"images/sweet-potato-fries.jpg",
+image:"images/fries.jpg"
 },
 
 friedChicken:{
@@ -68,8 +68,8 @@ carbs:"15g",
 fat:"27g",
 health:35,
 swap:"Try a grilled herb chicken with roasted vegetables, which offers high protein with far less saturated fat.",
-swapImage:"https://images.unsplash.com/photo-1600891964092-4316c288032e?q=80&w=1400&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1562967916-eb82221dfb92?q=80&w=1400&auto=format&fit=crop"
+swapImage:"images/herb-chicken-veggies.jpg",
+image:"images/fried-chicken.jpg"
 },
 
 proteinShake:{
@@ -80,8 +80,8 @@ carbs:"12g",
 fat:"5g",
 health:90,
 swap:"Already healthy! But try a berry smoothie bowl with oats, chia seeds and yoghurt, which provides extra fibre and antioxidants with a similiar taste!.",
-swapImage:"https://images.unsplash.com/photo-1494597564530-871f2b93ac55?q=80&w=1400&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1553530666-ba11a90bb918?q=80&w=1400&auto=format&fit=crop"
+swapImage:"images/berry-smoothie-bowl.jpg",
+image:"images/protein-shake.jpg"
 },
 
 iceCream:{
@@ -92,8 +92,8 @@ carbs:"31g",
 fat:"14g",
 health:45,
 swap:"Swap it to frozen Greek yoghurt topped with berries! This provides more protein and less added sugar and still tastes delcious.",
-swapImage:"https://images.unsplash.com/photo-1488900128323-21503983a07e?q=80&w=1400&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1563805042-7684c019e1cb?q=80&w=1400&auto=format&fit=crop"
+swapImage:"images/frozen-yoghurt.jpg",
+image:"images/ice-cream.jpg"
 },
 
 sushi:{
@@ -104,8 +104,8 @@ carbs:"28g",
 fat:"5g",
 health:88,
 swap:"Already pretty healthy but try a salmon poke bowl with brown rice and edamame, as it offers more fibre and omega-3 healthy fats.",
-swapImage:"https://images.unsplash.com/photo-1553621042-f6e147245754?q=80&w=1400&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=1400&auto=format&fit=crop"
+swapImage:"images/salmon-poke-bowl.jpg",
+image:"images/sushi.jpg"
 },
 
 steak:{
@@ -116,8 +116,8 @@ carbs:"0g",
 fat:"20g",
 health:75,
 swap:"Instead of just steak try lean beef strips with quinoa and leafy greens to create a more balanced protein-rich meal!",
-swapImage:"https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1400&auto=format&fit=crop",
-image:"https://images.unsplash.com/photo-1558030006-450675393462?q=80&w=1400&auto=format&fit=crop"
+swapImage:"images/beef-quinoa-greens.jpg",
+image:"images/steak.jpg"
 }
 
 };
