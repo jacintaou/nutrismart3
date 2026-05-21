@@ -44,7 +44,7 @@ carbs:"25g",
 fat:"0.3g",
 health:98,
 swap:"Pair apples with almond butter and yoghurt for a more balanced nutritious snack.",
-swapImage:"https://images.unsplash.com/photo-1579613832125-5d34a13ffe2a?q=80&w=1400&auto=format&fit=crop",
+swapImage:"https://pin.it/7emLjlZq9q=80&w=1400&auto=format&fit=crop",
 image:"https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?q=80&w=1400&auto=format&fit=crop"
 },
 
