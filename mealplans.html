@@ -31,9 +31,7 @@ NutriSmart
 
 </ul>
 
-<button id="darkModeToggle">
-🌙
-</button>
+<button id="darkModeToggle">🌙</button>
 
 </nav>
 
@@ -49,99 +47,47 @@ Meal Plans & Recipes
 
 <section class="meal-page">
 
-<h1>
-Interactive Healthy Recipes
-</h1>
+<h1>Interactive Healthy Recipes</h1>
 
 <p class="about-intro">
-Explore balanced meal plans designed for different health and fitness goals. Each plan includes full recipes, nutrition information and simple preparation instructions.
+Explore balanced meal plans designed for different health and fitness goals.
 </p>
-
-<div class="meal-filter">
-
-<select id="dietSelect" onchange="filterMeals()">
-
-<option value="all">All Diets</option>
-<option value="weightloss">Weight Loss</option>
-<option value="protein">High Protein</option>
-<option value="vegetarian">Vegetarian</option>
-
-</select>
-
-</div>
 
 <div class="meal-grid">
 
-<!-- MEAL PLAN 1 -->
+<!-- ===================== PLAN 1 ===================== -->
 
 <div class="meal-card weightloss">
 
-<img src="images/weightloss-meal.jpg" alt="Weight loss meal plan">
-
 <div class="meal-content">
 
-<h2>
-Weight Loss Meal Plan
-</h2>
+<h2>Weight Loss Meal Plan</h2>
 
-<p>
-Balanced meals focused on lean protein, fibre and whole foods to support healthy and sustainable weight management.
-</p>
-
-<div class="nutrition-summary">
-
-<h3>Daily Nutrition Totals</h3>
-
-<p>Calories: 1800 kcal</p>
-<p>Protein: 120g</p>
-<p>Carbohydrates: 165g</p>
-<p>Fat: 52g</p>
-
-</div>
-
-<div class="meal-breakdown">
-
-<h3>Breakfast</h3>
-<p>Berry Protein Oats</p>
-
-<h3>Lunch</h3>
-<p>Chicken Power Bowl</p>
-
-<h3>Dinner</h3>
-<p>Salmon Rice Bowl</p>
-
-<h3>Snack</h3>
-<p>Greek Yoghurt & Fruit</p>
-
-</div>
-
-<button onclick="toggleRecipe('weightlossrecipe')">
-View Full Recipes
-</button>
+<button onclick="toggleRecipe('weightlossrecipe')">View Full Recipes</button>
 
 <div class="recipe-box" id="weightlossrecipe">
 
 <h2>Berry Protein Oats</h2>
-
-<p>
-Ingredients: Rolled oats, protein powder, blueberries, strawberries, almond milk and chia seeds.
-</p>
-
-<p>
-Instructions: Cook oats with almond milk, stir through protein powder and top with berries and chia seeds.
-</p>
+<p>Ingredients: oats, protein powder, berries, almond milk, chia seeds</p>
+<p>Instructions: cook oats, mix protein powder, top with berries and chia seeds.</p>
 
 <hr>
 
 <h2>Chicken Power Bowl</h2>
+<p>Ingredients: chicken, brown rice, spinach, avocado, cucumber</p>
+<p>Instructions: grill chicken, assemble bowl with rice and vegetables.</p>
 
-<p>
-Ingredients: Grilled chicken, brown rice, avocado, spinach, cucumber and cherry tomatoes.
-</p>
+<hr>
 
-<p>
-Instructions: Cook rice, grill chicken and assemble ingredients into bowl.
-</p>
+<h2>Salmon Rice Bowl</h2>
+<p>Ingredients: salmon, rice, soy sauce, broccoli, sesame seeds</p>
+<p>Instructions: bake salmon, serve over rice with vegetables.</p>
+
+<hr>
+
+<h2>Greek Yoghurt & Fruit</h2>
+<p>Ingredients: Greek yoghurt, mixed fruit, honey</p>
+<p>Instructions: mix and serve chilled.</p>
 
 </div>
 
@@ -149,76 +95,39 @@ Instructions: Cook rice, grill chicken and assemble ingredients into bowl.
 
 </div>
 
-<!-- MEAL PLAN 2 -->
+<!-- ===================== PLAN 2 ===================== -->
 
 <div class="meal-card protein">
 
-<img src="images/highprotein-meal.jpg" alt="High protein meal plan">
-
 <div class="meal-content">
 
-<h2>
-High Protein Muscle Gain Plan
-</h2>
+<h2>High Protein Muscle Gain Plan</h2>
 
-<p>
-Protein-rich meals designed to support muscle growth, athletic recovery and energy levels.
-</p>
-
-<div class="nutrition-summary">
-
-<h3>Daily Nutrition Totals</h3>
-
-<p>Calories: 2700 kcal</p>
-<p>Protein: 190g</p>
-<p>Carbohydrates: 240g</p>
-<p>Fat: 78g</p>
-
-</div>
-
-<div class="meal-breakdown">
-
-<h3>Breakfast</h3>
-<p>Protein Smoothie Bowl</p>
-
-<h3>Lunch</h3>
-<p>Steak Recovery Plate</p>
-
-<h3>Dinner</h3>
-<p>Chicken Protein Pasta</p>
-
-<h3>Snack</h3>
-<p>Peanut Butter Banana Toast</p>
-
-</div>
-
-<button onclick="toggleRecipe('proteinrecipe')">
-View Full Recipes
-</button>
+<button onclick="toggleRecipe('proteinrecipe')">View Full Recipes</button>
 
 <div class="recipe-box" id="proteinrecipe">
 
 <h2>Protein Smoothie Bowl</h2>
-
-<p>
-Ingredients: Banana, protein powder, peanut butter, oats and milk.
-</p>
-
-<p>
-Instructions: Blend ingredients until smooth and top with berries and granola.
-</p>
+<p>Ingredients: banana, protein powder, oats, peanut butter, milk</p>
+<p>Instructions: blend and top with granola and berries.</p>
 
 <hr>
 
 <h2>Steak Recovery Plate</h2>
+<p>Ingredients: steak, sweet potato, broccoli</p>
+<p>Instructions: grill steak, roast potato, steam broccoli.</p>
 
-<p>
-Ingredients: Lean steak, sweet potato and broccoli.
-</p>
+<hr>
 
-<p>
-Instructions: Grill steak, roast sweet potato and steam broccoli.
-</p>
+<h2>Chicken Protein Pasta</h2>
+<p>Ingredients: chicken, wholegrain pasta, tomato sauce</p>
+<p>Instructions: cook pasta and mix with chicken sauce.</p>
+
+<hr>
+
+<h2>Peanut Butter Banana Toast</h2>
+<p>Ingredients: wholegrain bread, banana, peanut butter</p>
+<p>Instructions: toast bread and top with peanut butter and banana.</p>
 
 </div>
 
@@ -226,307 +135,159 @@ Instructions: Grill steak, roast sweet potato and steam broccoli.
 
 </div>
 
-<!-- MEAL PLAN 3 -->
+<!-- ===================== PLAN 3 ===================== -->
 
 <div class="meal-card vegetarian">
 
-<img src="images/vegetarian-meal.jpg" alt="Vegetarian meal plan">
-
 <div class="meal-content">
 
-<h2>
-Vegetarian Wellness Plan
-</h2>
+<h2>Vegetarian Wellness Plan</h2>
 
-<p>
-Plant-based meals packed with fibre, vitamins, minerals and healthy fats.
-</p>
-
-<div class="nutrition-summary">
-
-<h3>Daily Nutrition Totals</h3>
-
-<p>Calories: 2100 kcal</p>
-<p>Protein: 95g</p>
-<p>Carbohydrates: 220g</p>
-<p>Fat: 60g</p>
-
-</div>
-
-<div class="meal-breakdown">
-
-<h3>Breakfast</h3>
-<p>Avocado Toast</p>
-
-<h3>Lunch</h3>
-<p>Mediterranean Pasta</p>
-
-<h3>Dinner</h3>
-<p>Chickpea Curry Bowl</p>
-
-<h3>Snack</h3>
-<p>Berry Chia Pudding</p>
-
-</div>
-
-<button onclick="toggleRecipe('vegrecipe')">
-View Full Recipes
-</button>
+<button onclick="toggleRecipe('vegrecipe')">View Full Recipes</button>
 
 <div class="recipe-box" id="vegrecipe">
 
 <h2>Avocado Toast</h2>
+<p>Ingredients: wholegrain bread, avocado, feta, tomatoes</p>
+<p>Instructions: toast bread and mash avocado on top.</p>
 
-<p>
-Ingredients: Wholegrain bread, avocado, feta and cherry tomatoes.
-</p>
+<hr>
 
-<p>
-Instructions: Toast bread and top with avocado and vegetables.
-</p>
+<h2>Mediterranean Pasta</h2>
+<p>Ingredients: pasta, olive oil, vegetables, herbs</p>
+<p>Instructions: cook pasta and mix with vegetables and seasoning.</p>
 
 <hr>
 
 <h2>Chickpea Curry Bowl</h2>
+<p>Ingredients: chickpeas, curry sauce, rice</p>
+<p>Instructions: simmer curry and serve over rice.</p>
 
-<p>
-Ingredients: Chickpeas, rice, curry sauce and vegetables.
-</p>
+<hr>
 
-<p>
-Instructions: Cook curry and serve over rice.
-</p>
-
-</div>
+<h2>Berry Chia Pudding</h2>
+<p>Ingredients: chia seeds, milk, berries</p>
+<p>Instructions: soak overnight and top with berries.</p>
 
 </div>
 
 </div>
 
-<!-- MEAL PLAN 4 -->
+</div>
+
+<!-- ===================== PLAN 4 ===================== -->
 
 <div class="meal-card weightloss">
 
-<img src="images/mediterranean-meal.jpg" alt="Mediterranean meal plan">
-
 <div class="meal-content">
 
-<h2>
-Mediterranean Balance Plan
-</h2>
+<h2>Mediterranean Balance Plan</h2>
 
-<p>
-Fresh whole foods inspired by the Mediterranean diet to support heart health and energy.
-</p>
-
-<div class="nutrition-summary">
-
-<h3>Daily Nutrition Totals</h3>
-
-<p>Calories: 2000 kcal</p>
-<p>Protein: 105g</p>
-<p>Carbohydrates: 190g</p>
-<p>Fat: 65g</p>
-
-</div>
-
-<div class="meal-breakdown">
-
-<h3>Breakfast</h3>
-<p>Greek Yoghurt Parfait</p>
-
-<h3>Lunch</h3>
-<p>Chicken Couscous Salad</p>
-
-<h3>Dinner</h3>
-<p>Garlic Salmon & Vegetables</p>
-
-<h3>Snack</h3>
-<p>Hummus & Carrots</p>
-
-</div>
-
-<button onclick="toggleRecipe('medrecipe')">
-View Full Recipes
-</button>
+<button onclick="toggleRecipe('medrecipe')">View Full Recipes</button>
 
 <div class="recipe-box" id="medrecipe">
 
 <h2>Greek Yoghurt Parfait</h2>
+<p>Ingredients: Greek yoghurt, berries, honey, granola</p>
+<p>Instructions: layer ingredients in a glass.</p>
 
-<p>
-Ingredients: Greek yoghurt, berries, honey and granola.
-</p>
+<hr>
 
-<p>
-Instructions: Layer ingredients into glass and serve chilled.
-</p>
+<h2>Chicken Couscous Salad</h2>
+<p>Ingredients: chicken, couscous, cucumber, tomato</p>
+<p>Instructions: cook couscous and mix ingredients.</p>
 
 <hr>
 
 <h2>Garlic Salmon & Vegetables</h2>
+<p>Ingredients: salmon, broccoli, carrots, garlic</p>
+<p>Instructions: bake salmon and roast vegetables.</p>
 
-<p>
-Ingredients: Salmon, broccoli, carrots and garlic seasoning.
-</p>
+<hr>
 
-<p>
-Instructions: Roast vegetables and bake salmon until cooked through.
-</p>
-
-</div>
+<h2>Hummus & Carrots</h2>
+<p>Ingredients: hummus, carrots</p>
+<p>Instructions: serve together as snack.</p>
 
 </div>
 
 </div>
 
-<!-- MEAL PLAN 5 -->
+</div>
+
+<!-- ===================== PLAN 5 ===================== -->
 
 <div class="meal-card protein">
 
-<img src="images/athlete-meal.jpg" alt="Athlete meal plan">
-
 <div class="meal-content">
 
-<h2>
-Athlete Performance Plan
-</h2>
+<h2>Athlete Performance Plan</h2>
 
-<p>
-High energy meals designed to fuel training sessions and support muscle recovery.
-</p>
-
-<div class="nutrition-summary">
-
-<h3>Daily Nutrition Totals</h3>
-
-<p>Calories: 3000 kcal</p>
-<p>Protein: 210g</p>
-<p>Carbohydrates: 310g</p>
-<p>Fat: 82g</p>
-
-</div>
-
-<div class="meal-breakdown">
-
-<h3>Breakfast</h3>
-<p>Egg & Turkey Wrap</p>
-
-<h3>Lunch</h3>
-<p>Teriyaki Chicken Rice Bowl</p>
-
-<h3>Dinner</h3>
-<p>Lean Beef Pasta</p>
-
-<h3>Snack</h3>
-<p>Protein Shake & Banana</p>
-
-</div>
-
-<button onclick="toggleRecipe('athleterecipe')">
-View Full Recipes
-</button>
+<button onclick="toggleRecipe('athleterecipe')">View Full Recipes</button>
 
 <div class="recipe-box" id="athleterecipe">
 
 <h2>Egg & Turkey Wrap</h2>
+<p>Ingredients: eggs, turkey, spinach, wrap</p>
+<p>Instructions: cook eggs and wrap with turkey.</p>
 
-<p>
-Ingredients: Eggs, turkey slices, spinach and wholegrain wraps.
-</p>
+<hr>
 
-<p>
-Instructions: Cook eggs and assemble wrap with spinach and turkey.
-</p>
+<h2>Teriyaki Chicken Rice Bowl</h2>
+<p>Ingredients: chicken, rice, teriyaki sauce</p>
+<p>Instructions: cook chicken and mix with rice and sauce.</p>
 
 <hr>
 
 <h2>Lean Beef Pasta</h2>
+<p>Ingredients: beef mince, pasta, tomato sauce</p>
+<p>Instructions: cook and combine.</p>
 
-<p>
-Ingredients: Lean beef mince, wholegrain pasta and tomato sauce.
-</p>
+<hr>
 
-<p>
-Instructions: Cook pasta and combine with beef sauce mixture.
-</p>
-
-</div>
+<h2>Protein Shake & Banana</h2>
+<p>Ingredients: protein powder, milk, banana</p>
+<p>Instructions: blend and serve.</p>
 
 </div>
 
 </div>
 
-<!-- MEAL PLAN 6 -->
+</div>
+
+<!-- ===================== PLAN 6 ===================== -->
 
 <div class="meal-card vegetarian">
 
-<img src="images/vegan-meal.jpg" alt="Vegan meal plan">
-
 <div class="meal-content">
 
-<h2>
-Vegan Energy Plan
-</h2>
+<h2>Vegan Energy Plan</h2>
 
-<p>
-Nutrient-dense plant-based meals designed to support energy and overall wellness.
-</p>
-
-<div class="nutrition-summary">
-
-<h3>Daily Nutrition Totals</h3>
-
-<p>Calories: 2200 kcal</p>
-<p>Protein: 100g</p>
-<p>Carbohydrates: 245g</p>
-<p>Fat: 68g</p>
-
-</div>
-
-<div class="meal-breakdown">
-
-<h3>Breakfast</h3>
-<p>Peanut Butter Overnight Oats</p>
-
-<h3>Lunch</h3>
-<p>Tofu Buddha Bowl</p>
-
-<h3>Dinner</h3>
-<p>Lentil Coconut Curry</p>
-
-<h3>Snack</h3>
-<p>Dark Chocolate Trail Mix</p>
-
-</div>
-
-<button onclick="toggleRecipe('veganrecipe')">
-View Full Recipes
-</button>
+<button onclick="toggleRecipe('veganrecipe')">View Full Recipes</button>
 
 <div class="recipe-box" id="veganrecipe">
 
+<h2>Peanut Butter Overnight Oats</h2>
+<p>Ingredients: oats, almond milk, peanut butter, chia seeds</p>
+<p>Instructions: soak overnight and stir before serving.</p>
+
+<hr>
+
 <h2>Tofu Buddha Bowl</h2>
-
-<p>
-Ingredients: Tofu, brown rice, edamame, carrots and avocado.
-</p>
-
-<p>
-Instructions: Cook rice, pan fry tofu and assemble bowl ingredients.
-</p>
+<p>Ingredients: tofu, rice, vegetables, avocado</p>
+<p>Instructions: cook tofu and assemble bowl.</p>
 
 <hr>
 
 <h2>Lentil Coconut Curry</h2>
+<p>Ingredients: lentils, coconut milk, curry paste</p>
+<p>Instructions: simmer until cooked.</p>
 
-<p>
-Ingredients: Lentils, coconut milk, curry paste and vegetables.
-</p>
+<hr>
 
-<p>
-Instructions: Simmer all ingredients until lentils are tender.
-</p>
+<h2>Dark Chocolate Trail Mix</h2>
+<p>Ingredients: nuts, dried fruit, dark chocolate</p>
+<p>Instructions: mix and serve.</p>
 
 </div>
 
@@ -539,15 +300,10 @@ Instructions: Simmer all ingredients until lentils are tender.
 </section>
 
 <footer class="footer">
-
-<p>
-© 2026 NutriSmart | Enterprise Nutrition Intelligence Platform
-</p>
-
+<p>© 2026 NutriSmart | Enterprise Nutrition Intelligence Platform</p>
 </footer>
 
 <script src="js/script.js"></script>
 
 </body>
-
 </html>
