@@ -812,3 +812,11 @@ padding:30px 20px;
 .about-card button:hover {
     opacity: 0.85;
 }
+.hidden-text {
+    display: none;
+    margin-top: 10px;
+}
+
+.about-card.active .hidden-text {
+    display: block;
+}
