@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Healthy Eating | NutriSmart</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+<div class="logo">
+🥗 NutriSmart
+</div>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="analyser.html">Analyser</a></li>
+<li><a href="dashboard.html">Dashboard</a></li>
+<li><a href="mealplans.html">Meal Plans</a></li>
+<li><a href="healthy.html">Healthy Eating</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+<button id="darkModeToggle">
+🌙
+</button>
+
+</nav>
+
+<section class="page-banner">
+
+<img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=1400&auto=format&fit=crop">
+
+<div class="page-banner-overlay">
+Healthy Eating Hub
+</div>
+
+</section>
+
+<section class="about-page">
+
+<h1>
+Learn Healthy Eating Through Interactive Nutrition Tools
+</h1>
+
+<p class="about-intro">
+
+The Healthy Eating Hub helps users understand nutrition fundamentals through interactive learning tools including quizzes, expandable nutrition cards, and healthy food swap suggestions. This improves nutrition literacy and supports better food decision-making.
+
+</p>
+
+<div class="about-grid">
+
+<!-- CARD 1 -->
+<div class="about-card" onclick="toggleCard(this)">
+
+<img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1400&auto=format&fit=crop">
+
+<h2>Macronutrients</h2>
+
+<p class="hidden-text">
+Protein builds muscles, carbohydrates provide energy, and fats support brain and hormone function. Click again to hide/show details.
+</p>
+
+</div>
+
+<!-- CARD 2 -->
+<div class="about-card" onclick="toggleCard(this)">
+
+<img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=1400&auto=format&fit=crop">
+
+<h2>Micronutrients</h2>
+
+<p class="hidden-text">
+Vitamins and minerals support immunity, energy production, and overall health. A balanced diet ensures sufficient intake.
+</p>
+
+</div>
+
+<!-- CARD 3 -->
+<div class="about-card">
+
+<img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?q=80&w=1400&auto=format&fit=crop">
+
+<h2>Nutrition Quiz</h2>
+
+<p>
+Test your knowledge about healthy eating principles.
+</p>
+
+<button onclick="startQuiz()">Start Quiz</button>
+
+<p id="quizResult"></p>
+
+</div>
+
+<!-- CARD 4 -->
+<div class="about-card">
+
+<img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=1400&auto=format&fit=crop">
+
+<h2>Healthy Food Swaps</h2>
+
+<p>
+Discover smarter alternatives to everyday foods.
+</p>
+
+<button onclick="generateSwap()">Generate Swap</button>
+
+<p id="swapResult"></p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer class="footer">
+
+<p>
+© 2026 NutriSmart | Enterprise Nutrition Intelligence Platform
+</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
