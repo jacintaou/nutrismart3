@@ -514,3 +514,70 @@ darkToggle.innerHTML = "☀️";
 }
 
 }
+// ===== Healthy Eating Page Interactions =====
+
+// toggle expand/collapse for cards
+function toggleCard(card) {
+    const text = card.querySelector(".hidden-text");
+
+    if (text.style.display === "block") {
+        text.style.display = "none";
+    } else {
+        text.style.display = "block";
+    }
+}
+
+
+// ===== Simple Quiz System =====
+const quizQuestions = [
+    {
+        question: "Which nutrient is the body's main energy source?",
+        options: ["Protein", "Carbohydrates", "Fats"],
+        answer: "Carbohydrates"
+    },
+    {
+        question: "Which food is high in protein?",
+        options: ["Chicken", "Candy", "Soda"],
+        answer: "Chicken"
+    },
+    {
+        question: "Which is a healthy fat?",
+        options: ["Avocado", "Lollies", "Soft drink"],
+        answer: "Avocado"
+    }
+];
+
+let quizIndex = 0;
+
+function startQuiz() {
+    const q = quizQuestions[quizIndex];
+
+    const userAnswer = prompt(
+        q.question + "\n" +
+        q.options.join(", ")
+    );
+
+    if (userAnswer === q.answer) {
+        document.getElementById("quizResult").innerText = "Correct!";
+    } else {
+        document.getElementById("quizResult").innerText = "Not quite — answer: " + q.answer;
+    }
+
+    quizIndex++;
+    if (quizIndex >= quizQuestions.length) quizIndex = 0;
+}
+
+
+// ===== Healthy swaps =====
+function generateSwap() {
+    const swaps = [
+        "Chips → Air-popped popcorn",
+        "Soft drink → Sparkling water",
+        "Ice cream → Greek yoghurt",
+        "White bread → Wholegrain bread",
+        "Chocolate → Dark chocolate"
+    ];
+
+    const random = swaps[Math.floor(Math.random() * swaps.length)];
+    document.getElementById("swapResult").innerText = random;
+}
