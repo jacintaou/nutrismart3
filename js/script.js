@@ -568,7 +568,7 @@ function startQuiz() {
 }
 
 
-// ===== Healthy swaps =====
+// 
 function generateSwap() {
     const swaps = [
         "Chips → Air-popped popcorn",
@@ -576,6 +576,7 @@ function generateSwap() {
         "Ice cream → Greek yoghurt",
         "White bread → Wholegrain bread",
         "Chocolate → Dark chocolate"
+        "Vegetable oil → Olive oil" 
     ];
 
     const random = swaps[Math.floor(Math.random() * swaps.length)];
