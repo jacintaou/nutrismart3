@@ -575,7 +575,7 @@ function generateSwap() {
         "Soft drink → Sparkling water",
         "Ice cream → Greek yoghurt",
         "White bread → Wholegrain bread",
-        "Chocolate → Dark chocolate"
+        "Chocolate → Dark chocolate",
         "Vegetable oil → Olive oil" 
     ];
 
